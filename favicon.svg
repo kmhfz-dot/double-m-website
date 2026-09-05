@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Double M monogram">
+  <rect width="160" height="160" rx="12" fill="#121414"/>
+  <path d="M25 118V42l35 49 20-28 20 28 35-49v76" fill="none" stroke="#E9E1D5" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M40 118V67l20 28 20-28 20 28 20-28v51" fill="none" stroke="#B89A68" stroke-width="5" opacity=".95"/>
+</svg>
