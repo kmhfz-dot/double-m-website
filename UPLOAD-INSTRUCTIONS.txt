@@ -1,0 +1,12 @@
+DOUBLE M — GITHUB PAGES UPLOAD
+
+1. Extract this ZIP.
+2. Open GitHub Desktop and select double-m-website.
+3. Repository > Show in Explorer.
+4. Copy ALL extracted files/folders into the repository root.
+5. Replace existing files when prompted.
+6. Keep .gitattributes if it already exists.
+7. Commit summary: Double M complete gallery update
+8. Commit to main.
+9. Push origin.
+10. Wait about 1 minute and hard-refresh the site with Ctrl + F5.
