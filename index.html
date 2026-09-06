@@ -109,14 +109,14 @@ footer{background:#0f1010;color:#fff;padding:26px 0;font-size:11px;opacity:.9}.f
 <section class="section panel-dark" id="projects">
   <div class="wrap">
     <div class="head">
-      <div><div class="eyebrow">PROJECT COLLECTIONS</div><h2>More than one villa. More than one design direction.</h2></div>
-      <p>Open the Villas collection to browse multiple homes and project visuals instead of a single repeated image.</p>
+      <div><div class="eyebrow">PROJECT COLLECTIONS</div><h2>Different houses. Different architectural characters.</h2></div>
+      <p>These project cards now show genuinely different residential designs rather than repeated angles of one villa. Click any card to open the full projects gallery.</p>
     </div>
     <div class="gallery-strip">
-      <article class="gallery-card" data-gallery="projects" data-filter="Villas"><img src="images/project-villa-01.png" alt="Villas"><div class="copy"><h3>Villas</h3><p>Multiple villa concepts and residential facades.</p><span class="tag">VIEW VILLA GALLERY</span></div></article>
-      <article class="gallery-card" data-gallery="projects" data-filter="Poolside"><img src="images/project-villa-02.png" alt="Poolside"><div class="copy"><h3>Poolside</h3><p>Outdoor living, resort-style edges and pool compositions.</p><span class="tag">VIEW POOLSIDE</span></div></article>
-      <article class="gallery-card" data-gallery="projects" data-filter="Sunset"><img src="images/project-villa-03.png" alt="Sunset residences"><div class="copy"><h3>Sunset Residences</h3><p>Warm evening atmospheres and luxury exterior presentations.</p><span class="tag">VIEW SUNSET GALLERY</span></div></article>
-      <article class="gallery-card" data-gallery="projects" data-filter="Coastal"><img src="images/project-villa-04.png" alt="Coastal"><div class="copy"><h3>Coastal Homes</h3><p>Sea-facing residential concepts with expansive views.</p><span class="tag">VIEW COASTAL GALLERY</span></div></article>
+      <article class="gallery-card" data-gallery="projects"><img src="https://images.unsplash.com/photo-1696237461860-630be53f179c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Modern villa"><div class="copy"><h3>Modern Residence</h3><p>Contemporary family house with a strong architectural identity.</p><span class="tag">VIEW PROJECT GALLERY</span></div></article>
+      <article class="gallery-card" data-gallery="projects"><img src="https://images.unsplash.com/photo-1771871027939-d6c26e5d4f64?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="White modern villa"><div class="copy"><h3>White Villa</h3><p>A completely different minimalist residential language.</p><span class="tag">VIEW PROJECT GALLERY</span></div></article>
+      <article class="gallery-card" data-gallery="projects"><img src="https://images.unsplash.com/photo-1651010967757-39e5705db97e?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Courtyard house"><div class="copy"><h3>Courtyard Home</h3><p>Landscape-led residential architecture with a central outdoor character.</p><span class="tag">VIEW PROJECT GALLERY</span></div></article>
+      <article class="gallery-card" data-gallery="projects"><img src="https://images.unsplash.com/photo-1696237583261-029171ee31fa?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Stone house"><div class="copy"><h3>Stone Residence</h3><p>A warmer material palette and a different residential form.</p><span class="tag">VIEW PROJECT GALLERY</span></div></article>
     </div>
   </div>
 </section>
@@ -144,10 +144,9 @@ footer{background:#0f1010;color:#fff;padding:26px 0;font-size:11px;opacity:.9}.f
       <div><div class="eyebrow">BEFORE & AFTER</div><h2>Transformation with visible change.</h2></div>
       <p>Customer-facing comparison visuals to show how unfinished spaces can become refined interiors and finished homes.</p>
     </div>
-    <div class="compare-grid">
+    <div class="compare-grid" style="grid-template-columns:repeat(2,1fr)">
       <article class="compare-card"><div class="pair"><img src="images/before.jpg" alt="Before interior"><img src="images/after.jpg" alt="After interior"></div><div class="labels"><span>BEFORE</span><span>AFTER</span></div><h4>Interior Transformation</h4></article>
-      <article class="compare-card"><div class="pair"><img src="images/contracting-05.png" alt="Before exterior"><img src="images/fitout-06.png" alt="After finishing"></div><div class="labels"><span>BEFORE</span><span>AFTER</span></div><h4>Construction to Fit-Out</h4></article>
-      <article class="compare-card"><div class="pair"><img src="images/contracting-06.png" alt="Before shell"><img src="images/project-villa.jpg" alt="After project visual"></div><div class="labels"><span>BEFORE</span><span>AFTER</span></div><h4>Shell to Residential Concept</h4></article>
+      <article class="compare-card"><div class="pair"><img src="images/contracting-06.png" alt="Construction stage"><img src="images/project-villa-03.png" alt="Completed residence concept"></div><div class="labels"><span>BEFORE</span><span>AFTER</span></div><h4>Construction to Completed Residence</h4></article>
     </div>
   </div>
 </section>
@@ -239,20 +238,21 @@ const galleries={
     {src:'images/contracting-05.png',title:'Villa Under Construction',tag:'Progress'},
     {src:'images/contracting-07.png',title:'Coastal Build Progress',tag:'Progress'}
   ]},
-  interior:{title:'Interior Design',desc:'Different interior styles for living areas, bedrooms, open-plan spaces and bespoke design directions.',items:[
-    {src:'images/interior-02.jpg',title:'Open Living Room',tag:'Living'},
-    {src:'images/interior-03.jpg',title:'Bedroom Suite',tag:'Bedroom'},
-    {src:'images/interior-04.jpg',title:'Warm Dining Space',tag:'Dining'},
-    {src:'images/interior.jpg',title:'Majlis Style Seating',tag:'Majlis'},
-    {src:'images/interior-05.png',title:'Sunset Living Room',tag:'Living'},
-    {src:'images/interior-06.png',title:'Contemporary Interior',tag:'Open Plan'}
+  interior:{title:'Interior Design',desc:'A genuinely varied interior gallery: different homes, room types, palettes and design styles.',items:[
+    {src:'https://images.unsplash.com/photo-1771888703723-01d85da1dae1?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Soft Minimal Living Room',tag:'Living'},
+    {src:'https://images.unsplash.com/photo-1776303054657-4d21e2a6ef18?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Ambient Contemporary Living',tag:'Living'},
+    {src:'https://images.unsplash.com/photo-1773754532196-014342510e64?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Large-Window Residence',tag:'Living'},
+    {src:'https://images.unsplash.com/photo-1767720580810-58be50f89bf8?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Dubai Neutral Interior',tag:'Living'},
+    {src:'https://images.unsplash.com/photo-1774429076579-d90d43bffd3b?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Modern Bedroom Suite',tag:'Bedroom'},
+    {src:'https://images.unsplash.com/photo-1558942548-89bf85600e32?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Compact Modern Bedroom',tag:'Bedroom'},
+    {src:'https://images.unsplash.com/photo-1772567732989-1ddce59230e4?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Marble Kitchen',tag:'Kitchen'},
+    {src:'https://images.unsplash.com/photo-1721614461163-1909415b2916?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Contemporary Dining Room',tag:'Dining'}
   ]},
-  exterior:{title:'Exterior & Façade Design',desc:'Villa architecture from different angles: facades, entrances, pools and landscape compositions.',items:[
-    {src:'images/exterior-02.jpg',title:'Villa Entrance',tag:'Entrance'},
-    {src:'images/exterior-03.jpg',title:'Twilight Façade',tag:'Facade'},
-    {src:'images/exterior-04.jpg',title:'Landscape Perspective',tag:'Landscape'},
-    {src:'images/exterior-05.jpg',title:'Outdoor Living',tag:'Poolside'},
-    {src:'images/exterior.jpg',title:'Pool & Terrace',tag:'Poolside'}
+  exterior:{title:'Exterior & Façade Design',desc:'Different exterior design languages rather than one villa repeated from multiple angles.',items:[
+    {src:'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'White Pool Villa',tag:'Villa'},
+    {src:'https://images.unsplash.com/photo-1743664387500-41475d1a3f8a?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Glass House in the Woods',tag:'Glass'},
+    {src:'https://images.unsplash.com/photo-1760067537293-6b30141d6a52?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Wood & Stone Residence',tag:'Stone & Timber'},
+    {src:'https://images.unsplash.com/photo-1766153315876-b8cfa4dd7b2e?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Glass & Timber Architecture',tag:'Contemporary'}
   ]},
   fitout:{title:'Fit-Out & Renovation',desc:'Installation stages, joinery, lighting and final finishing across different spaces.',items:[
     {src:'images/fitout-02.jpg',title:'Joinery Progress',tag:'Joinery'},
@@ -270,17 +270,17 @@ const galleries={
     {src:'images/consultation-03.png',title:'Luxury Design Consultation',tag:'Consultation'},
     {src:'images/contact-unique.jpg',title:'Customer Inquiry Support',tag:'Advisory'}
   ]},
-  projects:{title:'Villa Collections',desc:'Multiple villa visuals across different moods and residential design directions.',items:[
-    {src:'images/project-villa.jpg',title:'Private Villa',tag:'Villas'},
-    {src:'images/project-villa-01.png',title:'Sea View Villa',tag:'Coastal'},
-    {src:'images/project-villa-02.png',title:'Modern Poolside Residence',tag:'Poolside'},
-    {src:'images/project-villa-03.png',title:'Twilight Luxury Villa',tag:'Sunset'},
-    {src:'images/project-villa-04.png',title:'Coastal Bay Residence',tag:'Coastal'}
+  projects:{title:'Project Gallery',desc:'A separate gallery of different residential and architectural designs, with no image repeated from the project cards.',items:[
+    {src:'https://images.unsplash.com/photo-1773427457869-6fbded8b89b9?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Black & Stone Home Under Construction',tag:'Under Construction'},
+    {src:'https://images.unsplash.com/photo-1783125127257-28dbc0523a68?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Modern Stone House',tag:'Modern'},
+    {src:'https://images.unsplash.com/photo-1766392911915-b17454efe76e?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Long-Roof Residence',tag:'Modern'},
+    {src:'https://images.unsplash.com/photo-1694105050266-911023811297?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Stone Farmhouse Residence',tag:'Stone'}
   ]},
-  materials:{title:'Materials & Finishes Library',desc:'Different material families with multiple options inside each category.',items:[
-    {src:'images/material-marble-calacatta.jpg',title:'Calacatta Marble',tag:'Marble'},
-    {src:'images/material-marble-statuario.jpg',title:'Statuario Marble',tag:'Marble'},
-    {src:'images/material-marble-arabescato.jpg',title:'Arabescato Marble',tag:'Marble'},
+  materials:{title:'Materials & Finishes Library',desc:'Different material families with multiple genuinely different samples in each category.',items:[
+    {src:'https://images.unsplash.com/photo-1694376329483-99d3eefb0c7d?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Warm White Marble',tag:'Marble'},
+    {src:'https://images.unsplash.com/photo-1699982758974-0703b87f052d?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Black Marble',tag:'Marble'},
+    {src:'https://images.unsplash.com/photo-1770065805058-3bfed55e23ee?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Beige Veined Marble',tag:'Marble'},
+    {src:'https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',title:'Classic White Marble',tag:'Marble'},
     {src:'images/material-stone-travertine.jpg',title:'Travertine Stone',tag:'Stone'},
     {src:'images/material-stone-limestone.jpg',title:'Limestone Finish',tag:'Stone'},
     {src:'images/material-wood-oak.jpg',title:'Oak Timber',tag:'Wood'},
